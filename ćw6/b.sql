@@ -1,0 +1,1 @@
+UPDATE pracownicy SET telefon = concat(substring(telefon,1,9),'-',substring(telefon,10,3),'-',substring(telefon,13,3));
